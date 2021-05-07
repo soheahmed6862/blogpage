@@ -58,7 +58,7 @@
     
  }
  .hr1{
-    border: 5px solid red;
+    border: 2px solid lightpink;
 
     margin:50px 0;
  }
@@ -102,7 +102,7 @@
     padding: 10px 10px;
     margin-bottom: 20px;
 }
- /**************footer ******************/
+
 
  /**************blog page****************/
 .next{
@@ -116,6 +116,11 @@
 .nextright p{
     text-align:end;
 }
+ /**************footer ******************/
+
+ footer{
+margin-bottom: 20px;
+ }
  .icon i{
      font-size:20px;
      margin-right:10px;
@@ -127,9 +132,14 @@
 footer p{
     margin-top:5px;
     color:black;
-    font-size:12px
+    font-size:16px
     
 }
+footer a{
+    text-decoration: underline;
+    color:black
+}
+ /**************footer ******************/
 
 /**************blogitem****************/
 
@@ -178,4 +188,40 @@ footer p{
     border-radius: 5px;
     outline:none;
     text-transform: uppercase;
+}
+
+.aboutlink{
+    color: gray;
+    margin:10px 0;
+    display:block
+}
+.box{
+
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin:10px 0
+}
+.boxv{
+    color: rgba(0, 128, 0, 0.57);
+}
+
+.tablecontainer{
+    
+    width:300px ;
+    margin: 10px 0;
+}
+.tablecontainer, th{
+
+    text-align: left;
+}
+.tablecontainer th,
+.tablecontainer td{
+    padding:10px;
+}
+.tablecontainer ,th , td{
+
+    border-collapse: collapse;  
+    border:1px solid #000
 }
